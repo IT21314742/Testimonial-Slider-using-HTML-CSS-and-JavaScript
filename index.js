@@ -21,3 +21,23 @@ const testimonials = [
 const imgEL = document.querySelector("img");
 const textEL = document.querySelector(".text");
 const usernnameEl = document.querySelector(".username");
+
+let idx = 0;
+
+updateTestimonial()
+
+function updateTestimonial() {
+    const { name, photoUrl, text } = 
+    testimonials[idx];
+    imgEL.src = photoUrl;
+    textEL.innerText = text;
+    usernnameEl.innerText = name;
+    idx++
+    if(idx == testimonials.length) {
+        idx = 0;
+    }
+    setTimeout(() =>{
+        updateTestimonial()
+    },2000)
+
+}
