@@ -17,3 +17,7 @@ const testimonials = [
         text: "This is simply unbelievable! I would be lost without APPPLE. the very best. Not able to tell you how happy i am with apple.",
     },
 ];
+
+const imgEL = document.querySelector("img");
+const textEL = document.querySelector(".text");
+const usernnameEl = document.querySelector(".username");
