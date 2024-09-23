@@ -19,5 +19,5 @@ _Provide a link to a live demo, if hosted online._
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/testimonial-slider
-   cd testimonial-slider
+   git clone https://github.com/IT21314742/Testimonial-Slider-using-HTML-CSS-and-JavaScript
+   cd Testimonial-Slider-using-HTML-CSS-and-JavaScript
